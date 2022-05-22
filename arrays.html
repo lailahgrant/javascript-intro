@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JavaScript Arrays</title>
-</head>
-<body>
-    
+  </head>
+  <body>
+    <script language="javascript" type="text/javascript">
+      
+      // method one - specify size of an array
+      var arr = new Array(5); //array size is 5 (only 5 array blocks)
+      arr[0] = 10;
+      arr[1] = 20;
+      arr[2] = 30;
+      arr[3] = 40;
+      arr[4] = 50;
 
-    <script>
-        
+      //to write values of the array on the browser
+      for (i = 0; i < 5; i++) {
+        document.write(arr[i] + "<br/>");
+      }
+
+        // method two - make an inline initialization of array
+        var a = new Array(10,20,30,40,50);
+        for(1=0; 1<5; i++){
+            document.write(a[i] + "<br/>");
+        }
+
     </script>
-
-</body>
+  </body>
 </html>
-
-
-
-
-
-

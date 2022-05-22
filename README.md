@@ -34,4 +34,7 @@
 > - fruit[0] is the first element.
 > - fruit[1] is the second element
 > - fruit[2] is the third element
+> 
+> `Array is a collection of similar type.`
+> `Arrays have a static memory allocation.`
 
