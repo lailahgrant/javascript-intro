@@ -24,5 +24,14 @@
 > - They let us store multiple values in a single variable.
 > - They store a fixed size of sequential collection of elements.
 > - Need to pass the `index` in order to access an element.
+> - `index` starts from `0`.
 > 
+> ##### Writing Array Data
+> - var fruits = new Array("apple", "mango", "orange");  OR
+> - var fruits = ["apple", "mango", "orange"];
+> 
+> ##### Reading Array Data
+> - fruit[0] is the first element.
+> - fruit[1] is the second element
+> - fruit[2] is the third element
 
