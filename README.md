@@ -18,4 +18,11 @@
 > - Less Server interactions.
 > - Better performance.
 > - Increased Interactivity.
-> - Richer interface.
+> - Richer interface [animations, Dynamic CSS]
+
+>   #### JavaScript Arrays
+> - They let us store multiple values in a single variable.
+> - They store a fixed size of sequential collection of elements.
+> - Need to pass the `index` in order to access an element.
+> 
+
