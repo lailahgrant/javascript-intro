@@ -39,3 +39,6 @@
 > `Arrays have a static memory allocation : - any particular number of values passed in array declaration is the size of the array. e.g Array below is of size 5.`
 > `var arr = new Array(10,20,30,50,40,50)`
 
+Array Sort and Search
+* - If there are a number of elements in an array
+*  BubbleSort e.g for sorting in an order ( ascending or descending order)
