@@ -44,10 +44,17 @@
 *  BubbleSort e.g for sorting in an order ( ascending or descending order)
 
 ##### Variables
-* Used to store data temporarily.
-* Variables will not have specific data type in JS
-* Variables can have global or local scope (for functions mostly).
-* e.g var name ="Lailah", age=19, salary = 5000.23;
+>* Used to store data temporarily.
+>* Variables will not have specific data type in JS
+>* Variables can have global or local scope (for functions mostly).
+>* e.g var name ="Lailah", age=19, salary = 5000.23;
+
+##### Conditional Statements
+> * if...else...
+> * Switch
+`if...else Flowchart`
+<img >
+
 
 
 
