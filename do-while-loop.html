@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do...while loop</title>
+</head>
+<body>
+    <script>
+        /*
+        Implentation of a do...while loop
+        _______________________________________
+        * when we want a pin   number from a user
+        * have a right pin
+        * number of attempts to enter pin is 3 and if they don't know in all those 3 attempts - block account
+        * if user gives pin before 3 attempts - log the user in the account.
+        */
+        var actualpin = "3456";
+        var pin;
+        var count = 0; //number of attempts will be incremented
+        do{
+            pin = prompt("Enter your pin....", "Enter");
+            count++;
+        }while(pin != actualpin && count < 3);
+        if(pin == actualpin){
+            document.write("Welcome User");
+        } else{
+            document.write("Account Locked");
+        }
+
+
+    </script>
+</body>
+</html>

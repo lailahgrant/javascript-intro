@@ -79,12 +79,15 @@
 > `conditional code;`
 > `}`
 > <img>
->  - - do.. while loop - repeatedly executes statements as long as the given condition is true.
+>  - - do.. while loop 
+> * - - Checks the condition at the end of the loop execution
+> * - - do... while loop guaranted to execute at least one time.
+> * - - Used for user interactions like a user entering PIN once e.g. mobile money, Whatsapp code
 > >Syntax
-> `while(condition)`
+> `do`
 > `{`
 > `conditional code;`
-> `}`
+> `}while(condition);`
 > <img>
 
 
