@@ -66,7 +66,22 @@
 > * do..while
 > <img>
 > - - for loop - used when the number of iterations or executions are known.
+> >Syntax
 > `for (init; condition; increment)`
+> `{`
+> `conditional code;`
+> `}`
+> <img>
+> - - while loop - repeatedly executes statements as long as the given condition is true.
+> >Syntax
+> `while(condition)`
+> `{`
+> `conditional code;`
+> `}`
+> <img>
+>  - - do.. while loop - repeatedly executes statements as long as the given condition is true.
+> >Syntax
+> `while(condition)`
 > `{`
 > `conditional code;`
 > `}`
