@@ -29,12 +29,13 @@
 > ##### Writing Array Data
 > - var fruits = new Array("apple", "mango", "orange");  OR
 > - var fruits = ["apple", "mango", "orange"];
-> 
+> `new - special keyword to allocaTE fresh new memory space`
 > ##### Reading Array Data
 > - fruit[0] is the first element.
 > - fruit[1] is the second element
 > - fruit[2] is the third element
 > 
 > `Array is a collection of similar type.`
-> `Arrays have a static memory allocation.`
+> `Arrays have a static memory allocation : - any particular number of values passed in array declaration is the size of the array. e.g Array below is of size 5.`
+> `var arr = new Array(10,20,30,50,40,50)`
 
