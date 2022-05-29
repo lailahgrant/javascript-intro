@@ -55,7 +55,22 @@
 `if...else Flowchart`
 <img >
 
-
+##### Iteration Statements (Loops)
+> * Executes set of statements several times
+> * Keeps on executing until gives condition is true
+> * Different control statements can be nested
+>
+> ###### Loops Classifications.
+> * for
+> * while
+> * do..while
+> <img>
+> - - for loop - used when the number of iterations or executions are known.
+> `for (init; condition; increment)`
+> `{`
+> `conditional code;`
+> `}`
+> <img>
 
 
 
