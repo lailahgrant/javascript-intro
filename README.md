@@ -52,8 +52,14 @@
 ##### Conditional Statements
 > * if...else...
 > * Switch
-`if...else Flowchart`
+> `if...else Flowchart`
 <img >
+
+> Switch
+> * To execute menu-like programs
+> * Use `case` keyword.
+> <img>
+
 
 ##### Iteration Statements (Loops)
 > * Executes set of statements several times
