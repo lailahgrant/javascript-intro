@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Animations</title>
+
+    <script>
+        //array of images
+        var arr = new Array("images/pant.jpg", "images/pant1.jpg", "images/pant2.jpg", "images/pant3.jpg");
+
+        var i =1; //index to point to individual element of the array
+
+        var ref; //ref for timer and slideshow control
+
+        //function t
+        function picLibrary(){
+            //get 1st image
+            document.images[0].src = arr[i];  
+            i++;
+            if(i < 3){
+                //reset index to 0
+                i = 0;
+            }            
+
+        }
+
+        function start(){
+            //setInterval("callbackfn", timer in milliseconds)
+            //picLibrary() is called after each 1s
+            ref = setInterval("picLibrary()", 1000); 
+        }
+
+        function stop(){
+            clearInterval(ref);
+        }
+
+    </script>
+
+</head>
+<body onload="start()">
+    
+    <!-- img tag for putting the animations -->
+    <img src="images/pant.jpg" alt="white woman underwear" name="img1" onmouseover="stop()" onmouseout="start()">
+
+</body>
+</html>

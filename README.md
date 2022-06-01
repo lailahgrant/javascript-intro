@@ -109,6 +109,8 @@
 * Ternary operator [(condition) ? true : false]
 <img>
 
+###### Javascript animations.
+
 
 
 
