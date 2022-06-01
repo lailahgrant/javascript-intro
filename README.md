@@ -20,7 +20,7 @@
 > - Increased Interactivity.
 > - Richer interface [animations, Dynamic CSS]
 
->   #### JavaScript Arrays
+> #### JavaScript Arrays
 > - They let us store multiple values in a single variable.
 > - They store a fixed size of sequential collection of elements.
 > - Need to pass the `index` in order to access an element.
@@ -95,6 +95,33 @@
 > `conditional code;`
 > `}while(condition);`
 > <img>
+
+##### Operators
+* It is a `symbol` which tells the system to perform specific operation.
+* Javascript has rich collection of built-in data types
+* Operators can be `unary(++,--), binary or ternary`.
+
+###### Operators classifications.
+* Arithmetic operator (+, -, /, *, %, ++, --, +=, -=)
+* Assignment operator (=)
+* Comparison operator
+* Logical operator [&& Logical and, || Logical or, ! Logical not]
+* Ternary operator [(condition) ? true : false]
+<img>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
